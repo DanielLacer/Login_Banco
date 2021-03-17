@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+#PrimeiroCaixa{
+
+    height: 140px;
+    width: 1560px;
+    left: -50px;
+    top: -40px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background: linear-gradient(90deg,#ffe6c5,#ffb17c,#faf1dd);
+    background-size: 200%;
+    animation: colors 5s alternate ease-in-out infinite;
+}
+
+@keyframes colors {
+
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 50% 100%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+
+}
+   
+#Logotipo1{
+
+    position: relative;
+    top: 40px;
+    left: -600px;
+
+}
+
+#MD1{
+
+    position: relative;
+    top: 50px;
+    left: -585px;
+    font-size: 20px;
+
+}
+
+#PrimeiraCaixaB{
+
+    height: 10px;
+    width: 1560px;
+    left: -50px;
+    top: -50px;
+    display: flex;
+    position: relative;
+    background:rgb(241, 241, 241);
+
+}
+
+#NCabeçalho{
+
+    font-family: 'Nunito', sans-serif;
+    font-style: unset;
+    font-size: 20px;
+    left: 0;
+
+}
+
+#iNome{
+
+    border: medium;
+    border-style: solid;
+    border-color: #fcccad;
+    position: relative;
+    top: 40px;
+    color: rgb(37, 37, 37);
+    font-weight: 600;
+    padding: 12px;
+    width: 600px;
+    background: transparent;
+    font-family: sans-serif;
+    left: 440px;
+    animation-delay: 550s;
+    animation-fill-mode: backwards;
+
+}
+
+#iSenha{
+
+    border: medium;
+    border-style: solid;
+    border-color:#fcccad;
+    position: relative;
+    top: 40px;
+    color: rgb(37, 37, 37);
+    font-weight: 600;
+    padding: 12px;
+    width: 600px;
+    background: transparent;
+    font-family: sans-serif;
+    left: 440px;
+    animation-delay: 350s;
+    animation-fill-mode: backwards;
+
+}
+
+#enviar{
+
+    padding: 12px;
+    position: relative;
+    border: none;
+    left: 440px;
+    width: 630px;
+    top: 60px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font: 15px, arial;
+    background:#ff7b00;
+    background-size: 200%;
+    animation-delay: 150ms;
+    animation-fill-mode: backwards;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+form{
+
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+@keyframes fade{
+    from{
+        opacity: 0;
+        transform: scale(0.9);
+        transform: translateX(-35%);
+    }
+    to{
+        opacity: 1;
+        transform: scale(2);
+        transform: translatey(0%);
+    }
+}
+
+#ilembrar{
+
+    display: block;
+    position: relative;
+    top: 90px;
+    left: -45px;
+    height: 2rem;
+    width: 2rem;
+    box-sizing: border-box;
+    border:2px solid oldlace;
+    border-radius: 4px;
+    margin-right: 18px;
+    background-color: oldlace;
+    cursor: pointer;
+    animation-delay: 150ms;
+    animation-fill-mode: backwards;
+    animation-name: backer;
+    animation-duration: 2s;
+    overflow: hidden;
+
+    
+}
+
+
+#checkbox{
+
+    font-family: sans-serif;
+    font-style: unset;
+    color: black;
+    position: relative;
+    left: 725px;
+    top: 60px;
+    width: 200px;
+    cursor: pointer;
+    animation-delay: 150ms;
+    animation-fill-mode: backwards;
+    animation-name: backer;
+    animation-duration: 2s;
+    overflow: hidden;
+
+}
+
+#Opções{
+
+    top: 100px;
+    position: relative;
+    right: -650px;
+    width: 300px;
+    font-size: 100%;
+    font-family: Arial;
+    font-style: inherit;
+    font-variant: unset;
+    animation-delay: 150ms;
+    animation-fill-mode: backwards;
+    animation-name: backer;
+    animation-duration: 2s;
+    overflow: hidden;
+
+}
+
+@keyframes backer{
+    from{
+        opacity: 0;
+        transform: scale(0.9);
+        transform: translateX(35%);
+    }
+    to{
+        opacity: 1;
+        transform: scale(2);
+        transform: translatey(0%);
+    }
+}
+
+#segundaCaixaB{
+
+    height: 350px;
+    width: 1560px;
+    left: -50px;
+    top: 170px;
+    position: relative;
+    border: none;
+    background-color: #ff7b00 ;
+    border-width: 2px;
+    border-style:hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#bloco1{
+
+    font-size: 16px;
+    right: -320px;
+    position: relative;
+    width: 200px;
+    top: 50px;
+
+}
+
+#linha1{
+
+    width: 2px;
+    height: 198px;
+    background-color: white;
+    position: relative;
+    top: -597px;
+    right: -300px;
+
+}
+
+#linha2{
+
+    width: 2px;
+    height: 160px;
+    background-color: white;
+    position: relative;
+    top: -795px;
+    right: -680px;
+
+}
+
+#linha3{
+
+    width: 2px;
+    height: 85px;
+    background-color: white;
+    position: relative;
+    top: -955px;
+    right: -1060px;
+
+}
+
+#bloco2{
+
+    font-size: 16px;
+    right: -700px;
+    position: relative;
+    width: 200px;
+    top: -238px;
+
+}
+
+#bloco3{
+
+    font-size: 16px;
+    right: -1080px;
+    position: relative;
+    width: 250px;
+    top: -488px;
+
+}
+
+#TerceiraCaixaB{
+
+    height: 250px;
+    width: 1560px;
+    left: -50px;
+    top: 170px;
+    position: relative;
+    border: none;
+    background-color: #ffffff ;
+    border-width: 2px;
+    
+}
+
+#Logotipo2{
+
+    position: relative;
+    top: 40px;
+    left: 300px;
+
+}
+
+#MD2{
+
+    position: relative;
+    top: -32px;
+    left: 398px;
+    font-size: 20px;
+    width: 300px;
+
+}
+
+#imagens{
+
+    height: 100px;
+    top: -120px;
+    right: -1100px;
+    position: relative;
+    width: 200px;
+    padding-left: 50px;
+}
+
+#LinhaFinal{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    position: relative;
+    top: 0px;
+    right: -450px;
+    left: 300px;
+    width: 1000px;
+    word-spacing: 20px;
+}
